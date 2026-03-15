@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - Shadou</title>
+    <title>利用規約 - 写道</title>
     <style>
         * {
             margin: 0;
@@ -28,9 +28,9 @@
         .lang-selector button {
             padding: 10px 20px;
             margin: 0 5px;
-            border: 2px solid #7e1083;
+            border: 2px solid #1a1a1a;
             background: white;
-            color: #7e1083;
+            color: #1a1a1a;
             border-radius: 8px;
             cursor: pointer;
             font-size: 14px;
@@ -38,7 +38,7 @@
         }
         .lang-selector button:hover,
         .lang-selector button.active {
-            background: #7e1083;
+            background: #1a1a1a;
             color: white;
         }
         .card {
@@ -48,7 +48,7 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #7e1083;
+            color: #1a1a1a;
             margin-bottom: 10px;
             text-align: center;
         }
@@ -58,7 +58,7 @@
             margin-bottom: 30px;
         }
         h2 {
-            color: #7e1083;
+            color: #1a1a1a;
             margin-top: 30px;
             margin-bottom: 15px;
             font-size: 1.2em;
@@ -73,7 +73,7 @@
             display: block;
             text-align: center;
             margin-top: 30px;
-            color: #7e1083;
+            color: #1a1a1a;
             text-decoration: none;
         }
         .content {
@@ -87,85 +87,22 @@
 <body>
     <div class="container">
         <div class="lang-selector">
-            <button onclick="showLang('zh')" id="btn-zh" class="active">繁體中文</button>
-            <button onclick="showLang('ja')" id="btn-ja">日本語</button>
+            <button onclick="showLang('ja')" id="btn-ja" class="active">日本語</button>
+            <button onclick="showLang('zh')" id="btn-zh">繁體中文</button>
             <button onclick="showLang('en')" id="btn-en">English</button>
         </div>
 
         <div class="card">
-            <!-- 繁體中文 -->
-            <div id="content-zh" class="content active">
-                <h1>使用條款</h1>
-                <p class="effective-date">生效日期：2024年1月1日</p>
-
-                <h2>1. 接受條款</h2>
-                <p>使用 Shadou 應用程式即表示您同意遵守這些使用條款。如果您不同意，請勿使用本服務。</p>
-
-                <h2>2. 服務說明</h2>
-                <p>Shadou 是一個偶像卡片收藏管理應用程式，允許用戶：</p>
-                <ul>
-                    <li>記錄和管理卡片收藏</li>
-                    <li>追蹤願望清單</li>
-                    <li>使用地圖功能探索相關地點</li>
-                    <li>查看活動行事曆</li>
-                </ul>
-
-                <h2>3. 帳號責任</h2>
-                <ul>
-                    <li>您必須年滿 13 歲才能使用本服務</li>
-                    <li>您有責任維護帳號安全</li>
-                    <li>您不得與他人分享帳號</li>
-                    <li>您必須提供準確的資訊</li>
-                </ul>
-
-                <h2>4. 使用者行為</h2>
-                <p>您同意：</p>
-                <ul>
-                    <li>不進行任何非法活動</li>
-                    <li>不干擾或破壞服務</li>
-                    <li>不嘗試未經授權的存取</li>
-                    <li>尊重其他使用者</li>
-                </ul>
-
-                <h2>5. 內容所有權</h2>
-                <ul>
-                    <li>您保留對您上傳內容的所有權</li>
-                    <li>您授予我們使用、儲存和處理您內容的許可</li>
-                    <li>我們尊重智慧財產權</li>
-                </ul>
-
-                <h2>6. 服務變更</h2>
-                <p>我們保留隨時修改或終止服務的權利，無需事先通知。</p>
-
-                <h2>7. 免責聲明</h2>
-                <p>本服務按「現狀」提供，不提供任何明示或暗示的保證。</p>
-
-                <h2>8. 責任限制</h2>
-                <p>在法律允許的最大範圍內，我們不對任何間接、偶然或後續損害負責。</p>
-
-                <h2>9. 終止</h2>
-                <p>我們可以隨時終止或暫停您的帳號，無需事先通知，原因包括但不限於違反這些條款。</p>
-
-                <h2>10. 適用法律</h2>
-                <p>這些條款受適用法律管轄，任何爭議應透過適當的法律途徑解決。</p>
-
-                <h2>11. 變更</h2>
-                <p>我們保留隨時修改這些條款的權利。重大變更將透過應用程式通知您。</p>
-
-                <h2>12. 聯絡我們</h2>
-                <p>如有任何關於使用條款的問題，請透過應用程式內的意見回饋功能與我們聯絡。</p>
-            </div>
-
             <!-- 日本語 -->
-            <div id="content-ja" class="content">
+            <div id="content-ja" class="content active">
                 <h1>利用規約</h1>
                 <p class="effective-date">発効日：2024年1月1日</p>
 
                 <h2>1. 規約の受諾</h2>
-                <p>Shadou アプリケーションを使用することにより、これらの利用規約に従うことに同意したものとみなされます。同意しない場合は、本サービスを使用しないでください。</p>
+                <p>写道アプリケーションを使用することにより、これらの利用規約に従うことに同意したものとみなされます。同意しない場合は、本サービスを使用しないでください。</p>
 
                 <h2>2. サービスの説明</h2>
-                <p>Shadou は、アイドルカードコレクション管理アプリケーションで、ユーザーは以下が可能です：</p>
+                <p>写道は、アイドルカードコレクション管理アプリケーションで、ユーザーは以下が可能です：</p>
                 <ul>
                     <li>カードコレクションの記録と管理</li>
                     <li>ウィッシュリストの追跡</li>
@@ -219,16 +156,79 @@
                 <p>利用規約に関するご質問は、アプリ内のフィードバック機能からお問い合わせください。</p>
             </div>
 
+            <!-- 繁體中文 -->
+            <div id="content-zh" class="content">
+                <h1>使用條款</h1>
+                <p class="effective-date">生效日期：2024年1月1日</p>
+
+                <h2>1. 接受條款</h2>
+                <p>使用写道應用程式即表示您同意遵守這些使用條款。如果您不同意，請勿使用本服務。</p>
+
+                <h2>2. 服務說明</h2>
+                <p>写道是一個偶像卡片收藏管理應用程式，允許用戶：</p>
+                <ul>
+                    <li>記錄和管理卡片收藏</li>
+                    <li>追蹤願望清單</li>
+                    <li>使用地圖功能探索相關地點</li>
+                    <li>查看活動行事曆</li>
+                </ul>
+
+                <h2>3. 帳號責任</h2>
+                <ul>
+                    <li>您必須年滿 13 歲才能使用本服務</li>
+                    <li>您有責任維護帳號安全</li>
+                    <li>您不得與他人分享帳號</li>
+                    <li>您必須提供準確的資訊</li>
+                </ul>
+
+                <h2>4. 使用者行為</h2>
+                <p>您同意：</p>
+                <ul>
+                    <li>不進行任何非法活動</li>
+                    <li>不干擾或破壞服務</li>
+                    <li>不嘗試未經授權的存取</li>
+                    <li>尊重其他使用者</li>
+                </ul>
+
+                <h2>5. 內容所有權</h2>
+                <ul>
+                    <li>您保留對您上傳內容的所有權</li>
+                    <li>您授予我們使用、儲存和處理您內容的許可</li>
+                    <li>我們尊重智慧財產權</li>
+                </ul>
+
+                <h2>6. 服務變更</h2>
+                <p>我們保留隨時修改或終止服務的權利，無需事先通知。</p>
+
+                <h2>7. 免責聲明</h2>
+                <p>本服務按「現狀」提供，不提供任何明示或暗示的保證。</p>
+
+                <h2>8. 責任限制</h2>
+                <p>在法律允許的最大範圍內，我們不對任何間接、偶然或後續損害負責。</p>
+
+                <h2>9. 終止</h2>
+                <p>我們可以隨時終止或暫停您的帳號，無需事先通知，原因包括但不限於違反這些條款。</p>
+
+                <h2>10. 適用法律</h2>
+                <p>這些條款受適用法律管轄，任何爭議應透過適當的法律途徑解決。</p>
+
+                <h2>11. 變更</h2>
+                <p>我們保留隨時修改這些條款的權利。重大變更將透過應用程式通知您。</p>
+
+                <h2>12. 聯絡我們</h2>
+                <p>如有任何關於使用條款的問題，請透過應用程式內的意見回饋功能與我們聯絡。</p>
+            </div>
+
             <!-- English -->
             <div id="content-en" class="content">
                 <h1>Terms of Service</h1>
                 <p class="effective-date">Effective Date: January 1, 2024</p>
 
                 <h2>1. Acceptance of Terms</h2>
-                <p>By using the Shadou application, you agree to comply with these Terms of Service. If you do not agree, please do not use this service.</p>
+                <p>By using the 写道 application, you agree to comply with these Terms of Service. If you do not agree, please do not use this service.</p>
 
                 <h2>2. Service Description</h2>
-                <p>Shadou is an idol card collection management application that allows users to:</p>
+                <p>写道 is an idol card collection management application that allows users to:</p>
                 <ul>
                     <li>Record and manage card collections</li>
                     <li>Track wishlists</li>
@@ -282,7 +282,7 @@
                 <p>For any questions about the Terms of Service, please contact us through the feedback feature in the application.</p>
             </div>
 
-            <a href="index.html" class="back-link">&larr; Back / 返回</a>
+            <a href="index.html" class="back-link">&larr; 戻る / Back / 返回</a>
         </div>
     </div>
 

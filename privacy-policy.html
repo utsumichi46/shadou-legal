@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Shadou</title>
+    <title>プライバシーポリシー - 写道</title>
     <style>
         * {
             margin: 0;
@@ -28,9 +28,9 @@
         .lang-selector button {
             padding: 10px 20px;
             margin: 0 5px;
-            border: 2px solid #7e1083;
+            border: 2px solid #1a1a1a;
             background: white;
-            color: #7e1083;
+            color: #1a1a1a;
             border-radius: 8px;
             cursor: pointer;
             font-size: 14px;
@@ -38,7 +38,7 @@
         }
         .lang-selector button:hover,
         .lang-selector button.active {
-            background: #7e1083;
+            background: #1a1a1a;
             color: white;
         }
         .card {
@@ -48,7 +48,7 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #7e1083;
+            color: #1a1a1a;
             margin-bottom: 10px;
             text-align: center;
         }
@@ -58,7 +58,7 @@
             margin-bottom: 30px;
         }
         h2 {
-            color: #7e1083;
+            color: #1a1a1a;
             margin-top: 30px;
             margin-bottom: 15px;
             font-size: 1.2em;
@@ -73,7 +73,7 @@
             display: block;
             text-align: center;
             margin-top: 30px;
-            color: #7e1083;
+            color: #1a1a1a;
             text-decoration: none;
         }
         .content {
@@ -87,62 +87,14 @@
 <body>
     <div class="container">
         <div class="lang-selector">
-            <button onclick="showLang('zh')" id="btn-zh" class="active">繁體中文</button>
-            <button onclick="showLang('ja')" id="btn-ja">日本語</button>
+            <button onclick="showLang('ja')" id="btn-ja" class="active">日本語</button>
+            <button onclick="showLang('zh')" id="btn-zh">繁體中文</button>
             <button onclick="showLang('en')" id="btn-en">English</button>
         </div>
 
         <div class="card">
-            <!-- 繁體中文 -->
-            <div id="content-zh" class="content active">
-                <h1>隱私政策</h1>
-                <p class="effective-date">生效日期：2024年1月1日</p>
-
-                <h2>1. 資料收集</h2>
-                <p>我們收集以下類型的資料：</p>
-                <ul>
-                    <li>帳號資訊：電子郵件地址、顯示名稱、頭像</li>
-                    <li>收藏資料：您記錄的卡片收藏、願望清單</li>
-                    <li>使用資料：應用程式使用情況、偏好設定</li>
-                    <li>位置資料：當您使用地圖功能時，我們會收集位置資訊</li>
-                </ul>
-
-                <h2>2. 資料使用</h2>
-                <p>我們使用收集的資料來：</p>
-                <ul>
-                    <li>提供和改進我們的服務</li>
-                    <li>個人化您的體驗</li>
-                    <li>與您溝通服務更新</li>
-                    <li>確保服務安全</li>
-                </ul>
-
-                <h2>3. 資料安全</h2>
-                <p>我們採取適當的安全措施來保護您的資料，包括加密和存取控制。</p>
-
-                <h2>4. 您的權利</h2>
-                <p>您有權：</p>
-                <ul>
-                    <li>存取您的個人資料</li>
-                    <li>更正不正確的資料</li>
-                    <li>刪除您的帳號和資料</li>
-                    <li>匯出您的資料</li>
-                </ul>
-
-                <h2>5. Cookie 和追蹤技術</h2>
-                <p>我們使用必要的 Cookie 和類似技術來提供服務功能。</p>
-
-                <h2>6. 兒童隱私</h2>
-                <p>我們的服務不針對 13 歲以下的兒童。我們不會故意收集兒童的個人資料。</p>
-
-                <h2>7. 變更通知</h2>
-                <p>我們可能會不時更新此隱私政策。重大變更將透過應用程式通知您。</p>
-
-                <h2>8. 聯絡我們</h2>
-                <p>如有任何關於隱私政策的問題，請透過應用程式內的意見回饋功能與我們聯絡。</p>
-            </div>
-
             <!-- 日本語 -->
-            <div id="content-ja" class="content">
+            <div id="content-ja" class="content active">
                 <h1>プライバシーポリシー</h1>
                 <p class="effective-date">発効日：2024年1月1日</p>
 
@@ -187,6 +139,54 @@
 
                 <h2>8. お問い合わせ</h2>
                 <p>プライバシーポリシーに関するご質問は、アプリ内のフィードバック機能からお問い合わせください。</p>
+            </div>
+
+            <!-- 繁體中文 -->
+            <div id="content-zh" class="content">
+                <h1>隱私政策</h1>
+                <p class="effective-date">生效日期：2024年1月1日</p>
+
+                <h2>1. 資料收集</h2>
+                <p>我們收集以下類型的資料：</p>
+                <ul>
+                    <li>帳號資訊：電子郵件地址、顯示名稱、頭像</li>
+                    <li>收藏資料：您記錄的卡片收藏、願望清單</li>
+                    <li>使用資料：應用程式使用情況、偏好設定</li>
+                    <li>位置資料：當您使用地圖功能時，我們會收集位置資訊</li>
+                </ul>
+
+                <h2>2. 資料使用</h2>
+                <p>我們使用收集的資料來：</p>
+                <ul>
+                    <li>提供和改進我們的服務</li>
+                    <li>個人化您的體驗</li>
+                    <li>與您溝通服務更新</li>
+                    <li>確保服務安全</li>
+                </ul>
+
+                <h2>3. 資料安全</h2>
+                <p>我們採取適當的安全措施來保護您的資料，包括加密和存取控制。</p>
+
+                <h2>4. 您的權利</h2>
+                <p>您有權：</p>
+                <ul>
+                    <li>存取您的個人資料</li>
+                    <li>更正不正確的資料</li>
+                    <li>刪除您的帳號和資料</li>
+                    <li>匯出您的資料</li>
+                </ul>
+
+                <h2>5. Cookie 和追蹤技術</h2>
+                <p>我們使用必要的 Cookie 和類似技術來提供服務功能。</p>
+
+                <h2>6. 兒童隱私</h2>
+                <p>我們的服務不針對 13 歲以下的兒童。我們不會故意收集兒童的個人資料。</p>
+
+                <h2>7. 變更通知</h2>
+                <p>我們可能會不時更新此隱私政策。重大變更將透過應用程式通知您。</p>
+
+                <h2>8. 聯絡我們</h2>
+                <p>如有任何關於隱私政策的問題，請透過應用程式內的意見回饋功能與我們聯絡。</p>
             </div>
 
             <!-- English -->
@@ -237,7 +237,7 @@
                 <p>For any questions about the privacy policy, please contact us through the feedback feature in the application.</p>
             </div>
 
-            <a href="index.html" class="back-link">&larr; Back / 返回</a>
+            <a href="index.html" class="back-link">&larr; 戻る / Back / 返回</a>
         </div>
     </div>
 
