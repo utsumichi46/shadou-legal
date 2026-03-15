@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Shadou</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .lang-selector {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .lang-selector button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            border: 2px solid #7e1083;
+            background: white;
+            color: #7e1083;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .lang-selector button:hover,
+        .lang-selector button.active {
+            background: #7e1083;
+            color: white;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #7e1083;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .effective-date {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #7e1083;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        p, li {
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            color: #7e1083;
+            text-decoration: none;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-selector">
+            <button onclick="showLang('zh')" id="btn-zh" class="active">繁體中文</button>
+            <button onclick="showLang('ja')" id="btn-ja">日本語</button>
+            <button onclick="showLang('en')" id="btn-en">English</button>
+        </div>
+
+        <div class="card">
+            <!-- 繁體中文 -->
+            <div id="content-zh" class="content active">
+                <h1>隱私政策</h1>
+                <p class="effective-date">生效日期：2024年1月1日</p>
+
+                <h2>1. 資料收集</h2>
+                <p>我們收集以下類型的資料：</p>
+                <ul>
+                    <li>帳號資訊：電子郵件地址、顯示名稱、頭像</li>
+                    <li>收藏資料：您記錄的卡片收藏、願望清單</li>
+                    <li>使用資料：應用程式使用情況、偏好設定</li>
+                    <li>位置資料：當您使用地圖功能時，我們會收集位置資訊</li>
+                </ul>
+
+                <h2>2. 資料使用</h2>
+                <p>我們使用收集的資料來：</p>
+                <ul>
+                    <li>提供和改進我們的服務</li>
+                    <li>個人化您的體驗</li>
+                    <li>與您溝通服務更新</li>
+                    <li>確保服務安全</li>
+                </ul>
+
+                <h2>3. 資料安全</h2>
+                <p>我們採取適當的安全措施來保護您的資料，包括加密和存取控制。</p>
+
+                <h2>4. 您的權利</h2>
+                <p>您有權：</p>
+                <ul>
+                    <li>存取您的個人資料</li>
+                    <li>更正不正確的資料</li>
+                    <li>刪除您的帳號和資料</li>
+                    <li>匯出您的資料</li>
+                </ul>
+
+                <h2>5. Cookie 和追蹤技術</h2>
+                <p>我們使用必要的 Cookie 和類似技術來提供服務功能。</p>
+
+                <h2>6. 兒童隱私</h2>
+                <p>我們的服務不針對 13 歲以下的兒童。我們不會故意收集兒童的個人資料。</p>
+
+                <h2>7. 變更通知</h2>
+                <p>我們可能會不時更新此隱私政策。重大變更將透過應用程式通知您。</p>
+
+                <h2>8. 聯絡我們</h2>
+                <p>如有任何關於隱私政策的問題，請透過應用程式內的意見回饋功能與我們聯絡。</p>
+            </div>
+
+            <!-- 日本語 -->
+            <div id="content-ja" class="content">
+                <h1>プライバシーポリシー</h1>
+                <p class="effective-date">発効日：2024年1月1日</p>
+
+                <h2>1. データ収集</h2>
+                <p>以下の種類のデータを収集します：</p>
+                <ul>
+                    <li>アカウント情報：メールアドレス、表示名、プロフィール画像</li>
+                    <li>コレクションデータ：記録されたカードコレクション、ウィッシュリスト</li>
+                    <li>使用データ：アプリケーションの使用状況、設定</li>
+                    <li>位置データ：地図機能を使用する際、位置情報を収集します</li>
+                </ul>
+
+                <h2>2. データの使用</h2>
+                <p>収集したデータを使用して：</p>
+                <ul>
+                    <li>サービスの提供と改善</li>
+                    <li>体験のパーソナライズ</li>
+                    <li>サービス更新の通知</li>
+                    <li>サービスの安全性確保</li>
+                </ul>
+
+                <h2>3. データセキュリティ</h2>
+                <p>暗号化とアクセス制御を含む適切なセキュリティ対策を講じてデータを保護します。</p>
+
+                <h2>4. お客様の権利</h2>
+                <p>以下の権利があります：</p>
+                <ul>
+                    <li>個人データへのアクセス</li>
+                    <li>不正確なデータの訂正</li>
+                    <li>アカウントとデータの削除</li>
+                    <li>データのエクスポート</li>
+                </ul>
+
+                <h2>5. Cookie と追跡技術</h2>
+                <p>サービス機能を提供するために必要な Cookie と類似技術を使用します。</p>
+
+                <h2>6. 児童のプライバシー</h2>
+                <p>当社のサービスは 13 歳未満の児童を対象としていません。意図的に児童の個人データを収集することはありません。</p>
+
+                <h2>7. 変更通知</h2>
+                <p>このプライバシーポリシーを随時更新する場合があります。重要な変更はアプリケーションを通じて通知します。</p>
+
+                <h2>8. お問い合わせ</h2>
+                <p>プライバシーポリシーに関するご質問は、アプリ内のフィードバック機能からお問い合わせください。</p>
+            </div>
+
+            <!-- English -->
+            <div id="content-en" class="content">
+                <h1>Privacy Policy</h1>
+                <p class="effective-date">Effective Date: January 1, 2024</p>
+
+                <h2>1. Data Collection</h2>
+                <p>We collect the following types of data:</p>
+                <ul>
+                    <li>Account Information: Email address, display name, profile picture</li>
+                    <li>Collection Data: Your recorded card collections, wishlists</li>
+                    <li>Usage Data: Application usage, preferences</li>
+                    <li>Location Data: When you use map features, we collect location information</li>
+                </ul>
+
+                <h2>2. Data Usage</h2>
+                <p>We use collected data to:</p>
+                <ul>
+                    <li>Provide and improve our services</li>
+                    <li>Personalize your experience</li>
+                    <li>Communicate service updates</li>
+                    <li>Ensure service security</li>
+                </ul>
+
+                <h2>3. Data Security</h2>
+                <p>We implement appropriate security measures to protect your data, including encryption and access controls.</p>
+
+                <h2>4. Your Rights</h2>
+                <p>You have the right to:</p>
+                <ul>
+                    <li>Access your personal data</li>
+                    <li>Correct inaccurate data</li>
+                    <li>Delete your account and data</li>
+                    <li>Export your data</li>
+                </ul>
+
+                <h2>5. Cookies and Tracking Technologies</h2>
+                <p>We use necessary cookies and similar technologies to provide service functionality.</p>
+
+                <h2>6. Children's Privacy</h2>
+                <p>Our services are not directed to children under 13. We do not knowingly collect personal data from children.</p>
+
+                <h2>7. Change Notifications</h2>
+                <p>We may update this privacy policy from time to time. Significant changes will be notified through the application.</p>
+
+                <h2>8. Contact Us</h2>
+                <p>For any questions about the privacy policy, please contact us through the feedback feature in the application.</p>
+            </div>
+
+            <a href="index.html" class="back-link">&larr; Back / 返回</a>
+        </div>
+    </div>
+
+    <script>
+        function showLang(lang) {
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-selector button').forEach(el => el.classList.remove('active'));
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>

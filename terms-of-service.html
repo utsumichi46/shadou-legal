@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Shadou</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .lang-selector {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .lang-selector button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            border: 2px solid #7e1083;
+            background: white;
+            color: #7e1083;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .lang-selector button:hover,
+        .lang-selector button.active {
+            background: #7e1083;
+            color: white;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #7e1083;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .effective-date {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #7e1083;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        p, li {
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            color: #7e1083;
+            text-decoration: none;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-selector">
+            <button onclick="showLang('zh')" id="btn-zh" class="active">繁體中文</button>
+            <button onclick="showLang('ja')" id="btn-ja">日本語</button>
+            <button onclick="showLang('en')" id="btn-en">English</button>
+        </div>
+
+        <div class="card">
+            <!-- 繁體中文 -->
+            <div id="content-zh" class="content active">
+                <h1>使用條款</h1>
+                <p class="effective-date">生效日期：2024年1月1日</p>
+
+                <h2>1. 接受條款</h2>
+                <p>使用 Shadou 應用程式即表示您同意遵守這些使用條款。如果您不同意，請勿使用本服務。</p>
+
+                <h2>2. 服務說明</h2>
+                <p>Shadou 是一個偶像卡片收藏管理應用程式，允許用戶：</p>
+                <ul>
+                    <li>記錄和管理卡片收藏</li>
+                    <li>追蹤願望清單</li>
+                    <li>使用地圖功能探索相關地點</li>
+                    <li>查看活動行事曆</li>
+                </ul>
+
+                <h2>3. 帳號責任</h2>
+                <ul>
+                    <li>您必須年滿 13 歲才能使用本服務</li>
+                    <li>您有責任維護帳號安全</li>
+                    <li>您不得與他人分享帳號</li>
+                    <li>您必須提供準確的資訊</li>
+                </ul>
+
+                <h2>4. 使用者行為</h2>
+                <p>您同意：</p>
+                <ul>
+                    <li>不進行任何非法活動</li>
+                    <li>不干擾或破壞服務</li>
+                    <li>不嘗試未經授權的存取</li>
+                    <li>尊重其他使用者</li>
+                </ul>
+
+                <h2>5. 內容所有權</h2>
+                <ul>
+                    <li>您保留對您上傳內容的所有權</li>
+                    <li>您授予我們使用、儲存和處理您內容的許可</li>
+                    <li>我們尊重智慧財產權</li>
+                </ul>
+
+                <h2>6. 服務變更</h2>
+                <p>我們保留隨時修改或終止服務的權利，無需事先通知。</p>
+
+                <h2>7. 免責聲明</h2>
+                <p>本服務按「現狀」提供，不提供任何明示或暗示的保證。</p>
+
+                <h2>8. 責任限制</h2>
+                <p>在法律允許的最大範圍內，我們不對任何間接、偶然或後續損害負責。</p>
+
+                <h2>9. 終止</h2>
+                <p>我們可以隨時終止或暫停您的帳號，無需事先通知，原因包括但不限於違反這些條款。</p>
+
+                <h2>10. 適用法律</h2>
+                <p>這些條款受適用法律管轄，任何爭議應透過適當的法律途徑解決。</p>
+
+                <h2>11. 變更</h2>
+                <p>我們保留隨時修改這些條款的權利。重大變更將透過應用程式通知您。</p>
+
+                <h2>12. 聯絡我們</h2>
+                <p>如有任何關於使用條款的問題，請透過應用程式內的意見回饋功能與我們聯絡。</p>
+            </div>
+
+            <!-- 日本語 -->
+            <div id="content-ja" class="content">
+                <h1>利用規約</h1>
+                <p class="effective-date">発効日：2024年1月1日</p>
+
+                <h2>1. 規約の受諾</h2>
+                <p>Shadou アプリケーションを使用することにより、これらの利用規約に従うことに同意したものとみなされます。同意しない場合は、本サービスを使用しないでください。</p>
+
+                <h2>2. サービスの説明</h2>
+                <p>Shadou は、アイドルカードコレクション管理アプリケーションで、ユーザーは以下が可能です：</p>
+                <ul>
+                    <li>カードコレクションの記録と管理</li>
+                    <li>ウィッシュリストの追跡</li>
+                    <li>地図機能を使用した関連地点の探索</li>
+                    <li>イベントカレンダーの閲覧</li>
+                </ul>
+
+                <h2>3. アカウントの責任</h2>
+                <ul>
+                    <li>本サービスを使用するには 13 歳以上である必要があります</li>
+                    <li>アカウントのセキュリティを維持する責任があります</li>
+                    <li>アカウントを他人と共有してはいけません</li>
+                    <li>正確な情報を提供する必要があります</li>
+                </ul>
+
+                <h2>4. ユーザーの行動</h2>
+                <p>以下に同意します：</p>
+                <ul>
+                    <li>違法行為を行わない</li>
+                    <li>サービスを妨害または破壊しない</li>
+                    <li>不正アクセスを試みない</li>
+                    <li>他のユーザーを尊重する</li>
+                </ul>
+
+                <h2>5. コンテンツの所有権</h2>
+                <ul>
+                    <li>アップロードしたコンテンツの所有権を保持します</li>
+                    <li>コンテンツの使用、保存、処理の許可を付与します</li>
+                    <li>知的財産権を尊重します</li>
+                </ul>
+
+                <h2>6. サービスの変更</h2>
+                <p>事前通知なしに、いつでもサービスを変更または終了する権利を留保します。</p>
+
+                <h2>7. 免責事項</h2>
+                <p>本サービスは「現状のまま」提供され、明示または黙示の保証は一切ありません。</p>
+
+                <h2>8. 責任の制限</h2>
+                <p>法律で許可される最大限の範囲で、間接的、偶発的、または結果的な損害について責任を負いません。</p>
+
+                <h2>9. 終了</h2>
+                <p>これらの規約違反を含むがこれに限定されない理由により、事前通知なしにいつでもアカウントを終了または一時停止する場合があります。</p>
+
+                <h2>10. 準拠法</h2>
+                <p>これらの規約は適用される法律に準拠し、紛争は適切な法的手段を通じて解決されます。</p>
+
+                <h2>11. 変更</h2>
+                <p>これらの規約をいつでも変更する権利を留保します。重要な変更はアプリケーションを通じて通知されます。</p>
+
+                <h2>12. お問い合わせ</h2>
+                <p>利用規約に関するご質問は、アプリ内のフィードバック機能からお問い合わせください。</p>
+            </div>
+
+            <!-- English -->
+            <div id="content-en" class="content">
+                <h1>Terms of Service</h1>
+                <p class="effective-date">Effective Date: January 1, 2024</p>
+
+                <h2>1. Acceptance of Terms</h2>
+                <p>By using the Shadou application, you agree to comply with these Terms of Service. If you do not agree, please do not use this service.</p>
+
+                <h2>2. Service Description</h2>
+                <p>Shadou is an idol card collection management application that allows users to:</p>
+                <ul>
+                    <li>Record and manage card collections</li>
+                    <li>Track wishlists</li>
+                    <li>Explore related locations using map features</li>
+                    <li>View event calendars</li>
+                </ul>
+
+                <h2>3. Account Responsibility</h2>
+                <ul>
+                    <li>You must be at least 13 years old to use this service</li>
+                    <li>You are responsible for maintaining account security</li>
+                    <li>You must not share your account with others</li>
+                    <li>You must provide accurate information</li>
+                </ul>
+
+                <h2>4. User Conduct</h2>
+                <p>You agree to:</p>
+                <ul>
+                    <li>Not engage in any illegal activities</li>
+                    <li>Not interfere with or disrupt the service</li>
+                    <li>Not attempt unauthorized access</li>
+                    <li>Respect other users</li>
+                </ul>
+
+                <h2>5. Content Ownership</h2>
+                <ul>
+                    <li>You retain ownership of content you upload</li>
+                    <li>You grant us permission to use, store, and process your content</li>
+                    <li>We respect intellectual property rights</li>
+                </ul>
+
+                <h2>6. Service Changes</h2>
+                <p>We reserve the right to modify or terminate the service at any time without prior notice.</p>
+
+                <h2>7. Disclaimer</h2>
+                <p>This service is provided "as is" without any express or implied warranties.</p>
+
+                <h2>8. Limitation of Liability</h2>
+                <p>To the maximum extent permitted by law, we are not liable for any indirect, incidental, or consequential damages.</p>
+
+                <h2>9. Termination</h2>
+                <p>We may terminate or suspend your account at any time without prior notice for reasons including but not limited to violation of these terms.</p>
+
+                <h2>10. Governing Law</h2>
+                <p>These terms are governed by applicable laws, and any disputes shall be resolved through appropriate legal channels.</p>
+
+                <h2>11. Changes</h2>
+                <p>We reserve the right to modify these terms at any time. Significant changes will be notified through the application.</p>
+
+                <h2>12. Contact Us</h2>
+                <p>For any questions about the Terms of Service, please contact us through the feedback feature in the application.</p>
+            </div>
+
+            <a href="index.html" class="back-link">&larr; Back / 返回</a>
+        </div>
+    </div>
+
+    <script>
+        function showLang(lang) {
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-selector button').forEach(el => el.classList.remove('active'));
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
