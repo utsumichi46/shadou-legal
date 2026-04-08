@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>写道 - Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        h1 { text-align: center; color: #1a1a1a; margin-bottom: 16px; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 40px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h2 { color: #1a1a1a; margin-bottom: 16px; font-size: 20px; }
+        p { margin-bottom: 12px; }
+        a { color: #5e3ab8; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+        .contact-button {
+            display: inline-block;
+            background: #5e3ab8;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            margin-top: 12px;
+            font-weight: 600;
+        }
+        .contact-button:hover { background: #4a2d92; text-decoration: none; }
+        ul { margin-left: 24px; margin-bottom: 12px; }
+        li { margin-bottom: 8px; }
+        .footer { text-align: center; color: #999; margin-top: 40px; font-size: 14px; }
+        .lang-section { display: none; }
+        .lang-section.active { display: block; }
+        .lang-switch { text-align: center; margin-bottom: 24px; }
+        .lang-switch button {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 8px 16px;
+            margin: 0 4px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .lang-switch button.active { background: #5e3ab8; color: white; border-color: #5e3ab8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>写道 Support</h1>
+        <p class="subtitle">Shadou - Idol Collection & Pilgrimage</p>
+
+        <div class="lang-switch">
+            <button onclick="setLang('en')" id="btn-en" class="active">English</button>
+            <button onclick="setLang('zh')" id="btn-zh">繁體中文</button>
+            <button onclick="setLang('ja')" id="btn-ja">日本語</button>
+        </div>
+
+        <!-- English -->
+        <div class="lang-section active" id="lang-en">
+            <div class="card">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, feedback, bug reports, or need help with your Shadou account, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:admin@shadou46.com">admin@shadou46.com</a></p>
+                <a href="mailto:admin@shadou46.com?subject=Shadou%20Support%20Request" class="contact-button">Send Email</a>
+            </div>
+
+            <div class="card">
+                <h2>Frequently Asked Questions</h2>
+                <p><strong>How do I reset my password?</strong></p>
+                <p>On the login screen, tap "Forgot Password?" and follow the instructions sent to your email.</p>
+
+                <p style="margin-top:16px"><strong>How do I delete my account?</strong></p>
+                <p>Go to Profile → Settings → Delete Account. Account deletion is permanent and cannot be undone.</p>
+
+                <p style="margin-top:16px"><strong>How do I report a bug?</strong></p>
+                <p>Email us at <a href="mailto:admin@shadou46.com">admin@shadou46.com</a> with details and screenshots if possible.</p>
+
+                <p style="margin-top:16px"><strong>How do I add cards to my collection?</strong></p>
+                <p>Open the Showcase tab, browse series or members, then tap a card and adjust the quantity.</p>
+            </div>
+
+            <div class="card">
+                <h2>Resources</h2>
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 繁體中文 -->
+        <div class="lang-section" id="lang-zh">
+            <div class="card">
+                <h2>聯絡我們</h2>
+                <p>如果您有任何問題、意見回饋、錯誤回報，或需要協助管理您的 Shadou 帳號，請聯絡我們：</p>
+                <p><strong>電子郵件：</strong><a href="mailto:admin@shadou46.com">admin@shadou46.com</a></p>
+                <a href="mailto:admin@shadou46.com?subject=Shadou%20%E6%94%AF%E6%8F%B4%E8%AB%8B%E6%B1%82" class="contact-button">寄送郵件</a>
+            </div>
+
+            <div class="card">
+                <h2>常見問題</h2>
+                <p><strong>如何重設密碼？</strong></p>
+                <p>在登入畫面點選「忘記密碼？」，依照寄到您信箱的指示操作。</p>
+
+                <p style="margin-top:16px"><strong>如何刪除帳號？</strong></p>
+                <p>進入「個人檔案 → 設定 → 刪除帳號」。帳號刪除為永久且無法復原。</p>
+
+                <p style="margin-top:16px"><strong>如何回報問題？</strong></p>
+                <p>請寄信至 <a href="mailto:admin@shadou46.com">admin@shadou46.com</a> 並附上詳細說明與截圖。</p>
+
+                <p style="margin-top:16px"><strong>如何新增收藏卡片？</strong></p>
+                <p>打開「展示櫃」分頁，瀏覽系列或成員，點選卡片後調整數量即可。</p>
+            </div>
+
+            <div class="card">
+                <h2>相關資源</h2>
+                <ul>
+                    <li><a href="privacy-policy.html">隱私權政策</a></li>
+                    <li><a href="terms-of-service.html">服務條款</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 日本語 -->
+        <div class="lang-section" id="lang-ja">
+            <div class="card">
+                <h2>お問い合わせ</h2>
+                <p>ご質問、フィードバック、不具合報告、またはアカウントに関するサポートが必要な場合は、お気軽にお問い合わせください：</p>
+                <p><strong>メール：</strong><a href="mailto:admin@shadou46.com">admin@shadou46.com</a></p>
+                <a href="mailto:admin@shadou46.com?subject=Shadou%20%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88" class="contact-button">メールを送る</a>
+            </div>
+
+            <div class="card">
+                <h2>よくある質問</h2>
+                <p><strong>パスワードをリセットするには？</strong></p>
+                <p>ログイン画面で「パスワードをお忘れですか？」をタップし、メールに送信される指示に従ってください。</p>
+
+                <p style="margin-top:16px"><strong>アカウントを削除するには？</strong></p>
+                <p>「プロフィール → 設定 → アカウント削除」へ進んでください。アカウントの削除は完全で、元に戻すことはできません。</p>
+
+                <p style="margin-top:16px"><strong>不具合を報告するには？</strong></p>
+                <p>詳細やスクリーンショットを添えて <a href="mailto:admin@shadou46.com">admin@shadou46.com</a> までメールでお知らせください。</p>
+            </div>
+
+            <div class="card">
+                <h2>関連情報</h2>
+                <ul>
+                    <li><a href="privacy-policy.html">プライバシーポリシー</a></li>
+                    <li><a href="terms-of-service.html">利用規約</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 Shadou. All rights reserved.
+        </div>
+    </div>
+
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-switch button').forEach(el => el.classList.remove('active'));
+            document.getElementById('lang-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
